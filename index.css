@@ -6,6 +6,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: 1rem solid darkred;
   height: 100vh;
 }
 
@@ -19,4 +20,5 @@
 
 .section#cosy {
   background-image: url("assets/cosy.jpg");
+  border-bottom: none;
 }
