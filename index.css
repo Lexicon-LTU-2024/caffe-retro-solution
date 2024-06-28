@@ -47,11 +47,15 @@
   background-color: rgba(139, 0, 0, 0.8);
   position: relative;
   text-align: center;
-} 
+}
 
-.section .box.red.first {}
+.section .box.red.first {
+  right: 5rem;
+}
 
-.section .box.red.second {}
+.section .box.red.second {
+  left: 5rem;
+}
 
 .section .box.black {
   background-color: rgba(0, 0, 0, 0.8);
