@@ -7,6 +7,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   justify-content: center;
 
   background-position: center;
@@ -33,4 +34,30 @@
   color: darkred;
   font-family: "Spirax", sans-serif;
   font-size: 6rem;
+}
+
+.section .box {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  width: 500px;
+}
+
+.section .box.red {
+  background-color: rgba(139, 0, 0, 0.8);
+  position: relative;
+  text-align: center;
+} 
+
+.section .box.red.first {}
+
+.section .box.red.second {}
+
+.section .box.black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section .box.black .row {
+  display: flex;
+  justify-content: space-between;
 }
