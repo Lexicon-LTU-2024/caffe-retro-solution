@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+.section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section#hot {
+  background-image: url("assets/hot.jpg");
+}
+
+.section#juicy {
+  background-image: url("assets/juicy.jpg");
+}
+
+.section#cosy {
+  background-image: url("assets/cosy.jpg");
+}
